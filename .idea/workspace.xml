@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb555170-3790-40be-b5b5-0344b9ef68c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/storage/debugbar/X0c24797b6f09a23f9b9746b88ea62a0b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/debugbar/X827506e63885daf9b0a19b78fcecdaa3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xbcdf8b880a558c483f0bcd3c38343533.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X5c347caf861c2f586aa6b8ec1abd74b9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X644ab0eba9e1711d29647578ee2ddedf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X80d6c030ef5de9eb3eec7f90f24f923a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X900d64dc3445374a53045e55478f0aee.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xb753906dc3cabf1e7efd7ff7cd9de786.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Question.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/question/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/question/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -212,6 +214,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="552" y="262" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1584721187408" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1584730092968">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584730092968" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1584730092967">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584730092967" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1584730092967">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584730092967" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1584730092967">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584730092967" />
     <state x="129" y="55" key="MergeDialog" timestamp="1584726313991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
