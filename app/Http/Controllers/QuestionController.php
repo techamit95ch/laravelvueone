@@ -15,8 +15,24 @@ class QuestionController extends Controller
     public function index()
     {
         //
-        $question= Question::latest()->paginate(5);
+        /*
+         * only to show result in query format we are changing view
+         * other wise this works fine
+         * [
+         * $question= Question::latest()->paginate(5);
         return view('question.index',compact('question'));
+         * ]
+         * new changed function is [
+         *\DB :: enableQueryLog();
+        $question= Question::with('user')->latest()->paginate(10);
+        view('question.index',compact('question'))->render();
+        dd(\DB::getQueryLog());
+         * ]
+         * */
+        \DB :: enableQueryLog();
+        $question= Question::with('user')->latest()->paginate(10);
+       return view('question.index',compact('question'));
+        //dd(\DB::getQueryLog());
     }
 
     /**
