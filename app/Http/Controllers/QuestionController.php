@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Question;
 use Illuminate\Http\Request;
+use Symfony\Component\Console\Question\Question as QuestionQuestion;
 
 class QuestionController extends Controller
 {
@@ -43,6 +44,8 @@ class QuestionController extends Controller
     public function create()
     {
         //
+        $question= new Question();
+        return view('question.create',compact('question'));
     }
 
     /**
