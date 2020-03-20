@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb555170-3790-40be-b5b5-0344b9ef68c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/storage/debugbar/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laravelvueone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravelvueone.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X0c24797b6f09a23f9b9746b88ea62a0b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X827506e63885daf9b0a19b78fcecdaa3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xbcdf8b880a558c483f0bcd3c38343533.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Question.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/question/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/question/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +22,14 @@
     </execution>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Amit chakraborty &lt;45399539+techamit95ch@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -167,39 +170,64 @@
       <updated>1584720303239</updated>
       <workItem from="1584720339629" duration="4966000" />
     </task>
+    <task id="LOCAL-00001" summary="adding author info and question creation date in question item">
+      <created>1584726222931</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584726222931</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="adding author info and question creation date in question item" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding author info and question creation date in question item" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="25" key="#Notifications" timestamp="1584725279319">
+    <state x="275" y="25" key="#Notifications" timestamp="1584726424206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="25" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1584725279319" />
+    <state x="275" y="25" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1584726424206" />
     <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584721034250">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584721034250" />
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1584721204520">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1584726220862">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584721204520" />
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584726220862" />
     <state x="552" y="262" key="Github.ShareDialog" timestamp="1584721187408">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="552" y="262" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1584721187408" />
+    <state x="129" y="55" key="MergeDialog" timestamp="1584726313991">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1584726313991" />
+    <state x="395" y="81" key="MultipleFileMergeDialog" timestamp="1584726313998">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="395" y="81" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1584726313998" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1584720951015">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584720951015" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1584726096480">
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1584726449007">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584726096480" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584726449007" />
     <state x="494" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584720845698">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
