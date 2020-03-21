@@ -9,7 +9,7 @@
                     <div class="d-flex align-items-center">
                         <h2>All Questions</h2>
                         <div class="ml-auto">
-                        <a href=" {{route('question.create')}} " class="btn btn-outline-secondary">
+                        <a href=" {{route('question.create')}} "class="btn btn-outline-secondary">
                                     Ask Questions
                             </a>
                         </div>
@@ -27,7 +27,7 @@
                                     </strong>
                                     {{str_plural('votes',$ques->votes)}}
                                 </div>
-                                <div class="status {{ $ques->status }}">
+                                <div class="status {{$ques->status }}">
                                     <strong>
                                         {{$ques->answers}}
                                     </strong>
@@ -43,24 +43,26 @@
                             </div>
 
                             <div class="media-body">
-                                <h3 class="mt-0">
-                                    <a href="{{$ques->url}}">
-                                    {{ $ques->title }}
-                                    </a>
-                                </h3>
+                                <div class="d-flex align-items-center">
+                                    <h3 class="mt-0"><a href="{{$ques->url}}">{{$ques->title }}</a></h3>
+                                    <div class="ml-auto">
+                                        <a href="{{route('question.edit',$ques->id) }}"class="btn btn-outline-secondary btn-sm">Edit</a>
+                                    </div>
+                                </div>
+                                
                                 <p class="lead">
                                     Asked By
-                                    <a href="{{ $ques->user->url }}"> {{$ques->user->name}}</a>
+                                    <a href="{{$ques->user->url }}"> {{$ques->user->name}}</a>
                                     <small class="text-muted">{{$ques->created_date}}</small>
                                 </p>
 
-                                {{ str_limit( $ques->body,250) }}
+                                {{str_limit( $ques->body,250) }}
                             </div>
                         </div>
                     </hr>
                     @endforeach
                     <div class="mx-auto">
-                    {{ $question->links() }}
+                    {{$question->links()}}
                     </div>
                 </div>
             </div>
