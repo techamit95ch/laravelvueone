@@ -71,6 +71,10 @@ class QuestionController extends Controller
     public function show(Question $question)
     {
         //
+        $question->increment('views');
+        //dd($question->body);
+        return view('question.show',compact('question'));
+
     }
 
     /**
@@ -107,5 +111,11 @@ class QuestionController extends Controller
     {
         $question->delete();
         return redirect('question/')->with('success','Question Deleted Successfully');
+    }
+
+    public function bal(Request $request, $id)
+    {
+        # code...
+        //dd($id);
     }
 }

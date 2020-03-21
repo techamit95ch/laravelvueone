@@ -4,6 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
+//use Parsedown;
 class Question extends Model
 {
     //
@@ -18,7 +19,8 @@ class Question extends Model
         $this->attributes['slug'] = Str::slug($value, '-');
     }
     public function getUrlAttribute(){
-        return route("question.show",$this->id);
+
+        return route("question.show",$this->slug);
     }
     public function getCreatedDateAttribute()
     {
@@ -32,6 +34,11 @@ class Question extends Model
             return "answered";
         }
         return "unanswered";
+    }
+    public function getBodyHtmlAttribute($value='')
+    {
+        # code...
+        return \Parsedown:: instance()->text($this->body);
     }
 
 }
