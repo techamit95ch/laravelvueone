@@ -7,7 +7,7 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 .navbar-laravel{
-    background-color: #fff;
+    background-color: color#fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 .counters{
@@ -40,4 +40,8 @@ strong{
         background: $color_green;
         color: $color_white;
     }
+}
+form .form-questionDelete{
+    display: inline;
+    float:left;
 }
