@@ -1,0 +1,386 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fu",
+				"fun\tfunction …"
+			],
+			[
+				"ret",
+				"return\t  Keyword"
+			],
+			[
+				"fun",
+				"fun\tfunction …"
+			],
+			[
+				"Qu",
+				"Question\t  namespace App\\Providers"
+			],
+			[
+				"rou",
+				"route\t  route($name [, $parameters [, $absolute]])"
+			],
+			[
+				"btn-out",
+				"btn-outline-danger \tBootstrap 4 Class"
+			],
+			[
+				"rout",
+				"route\tL5 Route"
+			],
+			[
+				"with",
+				"with\t  with($key [, $value])"
+			],
+			[
+				"wi",
+				"with\tDjango template with"
+			],
+			[
+				"dis",
+				"display\tproperty"
+			],
+			[
+				"ti",
+				"title\t<title>"
+			],
+			[
+				"re",
+				"$request\t  \\App\\Http\\Requests\\AskQuestionRequest"
+			],
+			[
+				"u",
+				"update\t  update([array $attributes [, array $options]])"
+			],
+			[
+				"met",
+				"method_field\tL5 Method Field"
+			],
+			[
+				"Q",
+				"Question\t  namespace App\\Http\\Controllers"
+			],
+			[
+				"btn-",
+				"btn-sm \tBootstrap 4 Class"
+			],
+			[
+				"btn-s",
+				"btn-outline-secondary \tBootstrap 4 Class"
+			],
+			[
+				"route",
+				"route\tblade-route"
+			],
+			[
+				"a",
+				"a\t<a href=\"mailto:\"> "
+			],
+			[
+				"ml",
+				"ml-auto \tBootstrap 4 Class"
+			],
+			[
+				"class",
+				"class\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"qui",
+				"Quick Settings: Edit Preferences..."
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: r",
+				"Package Control: Remove Package"
+			],
+			[
+				"react",
+				"ReactIDE: Switch between component and stylesheet"
+			],
+			[
+				"gtm",
+				"Package Control: Remove Package"
+			],
+			[
+				"gittime",
+				"Plugin Development: Convert Syntax to .sublime-syntax"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/app",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/app/Http",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/app/Http/Controllers",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/app/Providers",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/resources",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/resources/js",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/resources/js/components",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/resources/sass",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/resources/views",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/resources/views/question",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/routes"
+	],
+	"file_history":
+	[
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/app/Providers/RouteServiceProvider.php",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/app/Question.php",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/app/Http/Controllers/QuestionController.php",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/resources/views/question/show.blade.php",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/resources/views/question/index.blade.php",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/routes/web.php",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/resources/views/question/edit.blade.php",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/resources/sass/app.scss",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/resources/views/question/create.blade.php",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/resources/views/question/_question_form.blade.php",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/app/Http/Controllers/QuestionController.autosave.php",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/resources/views/question/create.blade.autosave.php",
+		"/C/Users/Amit/AppData/Roaming/Sublime Text 3/Packages/User/auto_save.sublime-settings",
+		"/D/Projects/XAMPP/htdocs/Laravel/laravelvueone/resources/views/question/index.blade.autosave.php",
+		"/C/Users/Amit/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/C/Users/Amit/AppData/Roaming/Sublime Text 3/Packages/auto-save/auto_save.sublime-settings",
+		"/C/Users/Amit/AppData/Roaming/Sublime Text 3/Packages/auto-save/README.md",
+		"/C/Users/Amit/AppData/Roaming/Sublime Text 3/Packages/auto-save/Default (Windows).sublime-keymap",
+		"/C/Users/Amit/AppData/Roaming/Sublime Text 3/Packages/Laravel-Cheat-Sheet/snippets/Eloquent.sublime-settings",
+		"/C/Users/Amit/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Amit/Desktop/Projects/Angular 2020/Projects/my-app/src/environments/environment.ts",
+		"/C/Users/Amit/Desktop/Projects/Angular 2020/Projects/my-app/src/styles.css",
+		"/C/Users/Amit/Desktop/Projects/Angular 2020/Projects/my-app/src/environments/environment.prod.ts",
+		"/C/Users/Amit/Desktop/Projects/Angular 2020/Projects/my-app/src/index.html",
+		"/C/Users/Amit/Desktop/Projects/Angular 2020/Projects/my-app/src/main.ts",
+		"/C/Users/Amit/Desktop/Projects/Angular 2020/Projects/my-app/src/app/app.component.spec.ts",
+		"/C/Users/Amit/Desktop/Projects/Angular 2020/Projects/my-app/src/polyfills.ts",
+		"/C/Users/Amit/Desktop/Projects/Angular 2020/Projects/my-app/src/app/app.component.html",
+		"/C/Users/Amit/Desktop/Projects/Angular 2020/Projects/my-app/src/app/app.component.css",
+		"/C/Users/Amit/Desktop/Projects/Angular 2020/Projects/my-app/src/assets/.gitkeep",
+		"/C/Users/Amit/Desktop/Projects/workplace/login_statefull/lib/main.dart",
+		"/C/Users/Amit/Desktop/Projects/workplace/login_statefull/lib/src/app.dart",
+		"/D/Projects/JavaScript/React Js/my-first-app/src/Person/Perrson.js",
+		"/C/Users/Amit/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"media"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 127.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 126.0
+	},
+	"output.diagnostics":
+	{
+		"height": 127.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 127.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 127.0
+	},
+	"output.language servers":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.preferences_editor_help":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "laravueone.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
