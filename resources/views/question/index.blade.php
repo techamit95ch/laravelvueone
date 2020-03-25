@@ -46,18 +46,11 @@
                                 <div class="d-flex align-items-center">
                                     <h3 class="mt-0"><a href="{{$ques->url}}">{{$ques->title }}</a></h3>
                                     <div class="ml-auto">
-                                        {{
-                                        /*
-                                        this can method is basically short form of
-                                        if(Auth::user()->can(.....))
-                                        * here also Auth reffers to authoried this or current user who logged in right now
-                                        */ 
-
-                                         }}
-                                        @can ('update_question',$ques)
+                                        
+                                        @can ('update',$ques)
                                             <a href="{{route('question.edit',$ques->id) }}"class="btn btn-outline-secondary btn-sm">Edit</a>
                                         @endcan
-                                        @can ('update_question',$ques)
+                                        @can ('delete',$ques)
                                         <form action="{{ route('question.destroy',$ques->id) }} " method="post" accept-charset="utf-8" class="form-questionDelete">
                                             @method('DELETE')
                                             @csrf
