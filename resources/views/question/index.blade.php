@@ -29,9 +29,9 @@
                                 </div>
                                 <div class="status {{$ques->status }}">
                                     <strong>
-                                        {{$ques->answers}}
+                                        {{$ques->answers_count}}
                                     </strong>
-                                    {{str_plural('answers',$ques->answers)}}
+                                    {{str_plural('answers',$ques->answers_count)}}
                                 </div>
                                 <div class="views">
                                     <strong>
@@ -46,8 +46,8 @@
                                 <div class="d-flex align-items-center">
                                     <h3 class="mt-0"><a href="{{$ques->url}}">{{$ques->title }}</a></h3>
                                     <div class="ml-auto">
-                                        
-                                        @can ('update',$ques)
+
+                                    @can ('update',$ques)
                                             <a href="{{route('question.edit',$ques->id) }}"class="btn btn-outline-secondary btn-sm">Edit</a>
                                         @endcan
                                         @can ('delete',$ques)
@@ -59,7 +59,7 @@
                                          @endcan
                                     </div>
                                 </div>
-                                
+
                                 <p class="lead">
                                     Asked By
                                     <a href="{{$ques->user->url }}"> {{$ques->user->name}}</a>

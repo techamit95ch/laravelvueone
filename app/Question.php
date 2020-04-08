@@ -4,15 +4,18 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
+use Parsedown;
+
 //use Parsedown;
 class Question extends Model
 {
     //
-    protected $fillable = ['title','body'];
+    protected $fillable = ['title', 'body'];
 
-    public function user(){
+    public function user()
+    {
         return $this->belongsTo(User::class);
-        }
+    }
 
     public function setTitleAttribute( $value)    {
         $this->attributes['title']= $value;
@@ -27,18 +30,23 @@ class Question extends Model
         return $this->created_at->diffForHumans();
     }
     public function getStatusAttribute(){
-        if($this->answers>0){
-            if($this->best_answer_id){
+        if ($this->answers_count > 0) {
+            if ($this->best_answer_id) {
                 return "answered_accpeted";
             }
             return "answered";
         }
         return "unanswered";
     }
-    public function getBodyHtmlAttribute($value='')
+
+    public function getBodyHtmlAttribute($value = '')
     {
         # code...
-        return \Parsedown:: instance()->text($this->body);
+        return Parsedown:: instance()->text($this->body);
     }
 
+    public function answers()
+    {
+        return $this->hasMany(Answer::class);
+    }
 }

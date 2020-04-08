@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb555170-3790-40be-b5b5-0344b9ef68c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Answer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_04_04_163815_create_answers_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_04_08_073158_rename_answers_in_question_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/laravelvueone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravelvueone.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Question.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/QuestionFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/QuestionFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/question/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/question/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,12 +26,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
-  </component>
-  <component name="DatabaseLocalColorSettings">
-    <colors>
-      <entry key="50a552fe-8511-4d73-9761-0548602f11a4" value="Blue" />
-    </colors>
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -138,6 +143,9 @@
       <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
       <path value="$PROJECT_DIR$/vendor/symfony/debug" />
       <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ZOq3vjoC00KirowqPMjLOoBU7M" />
@@ -146,7 +154,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -157,7 +164,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/artisan" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -165,7 +172,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="php artisan serve" />
+      <command value="php artisan migrate" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -185,6 +198,12 @@
       <updated>1584720303239</updated>
       <workItem from="1584720339629" duration="4966000" />
       <workItem from="1585096479427" duration="3073000" />
+      <workItem from="1585844224913" duration="638000" />
+      <workItem from="1585847104902" duration="1958000" />
+      <workItem from="1586014616968" duration="239000" />
+      <workItem from="1586014901502" duration="2620000" />
+      <workItem from="1586022711544" duration="261000" />
+      <workItem from="1586329662831" duration="2666000" />
     </task>
     <task id="LOCAL-00001" summary="adding author info and question creation date in question item">
       <created>1584726222931</created>
@@ -220,42 +239,62 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="25" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1584726424206" />
-    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585115850802">
+    <state x="400" y="22" key="#Test_Frameworks" timestamp="1586331417291">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585115850802" />
+    <state x="400" y="22" key="#Test_Frameworks/0.0.1366.728@0.0.1366.728" timestamp="1586331417291" />
+    <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586331459821">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586331459821" />
+    <state x="488" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1586330306943">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1586330306943" />
+    <state x="709" y="301" key="#com.jetbrains.php.framework.ui.FailedToParseDialog" timestamp="1586330182096">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="709" y="301" key="#com.jetbrains.php.framework.ui.FailedToParseDialog/0.0.1366.728@0.0.1366.728" timestamp="1586330182096" />
     <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1584726220862">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584726220862" />
-    <state x="465" y="119" key="FileChooserDialogImpl" timestamp="1585114740584">
+    <state x="557" y="249" key="ComposerCompositePathDialog" timestamp="1586330177225">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="465" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585114740584" />
+    <state x="557" y="249" key="ComposerCompositePathDialog/0.0.1366.728@0.0.1366.728" timestamp="1586330177225" />
+    <state x="459" y="276" key="ComposerInitDialogKey" timestamp="1586331860647">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="459" y="276" key="ComposerInitDialogKey/0.0.1366.728@0.0.1366.728" timestamp="1586331860647" />
+    <state x="465" y="119" key="FileChooserDialogImpl" timestamp="1586331410589">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="465" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586331410589" />
     <state x="552" y="262" key="Github.ShareDialog" timestamp="1584721187408">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="552" y="262" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1584721187408" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585130121184">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1586332180142">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585130121184" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585130121184">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586332180142" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1586332180142">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585130121184" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585130121184">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586332180142" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1586332180142">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585130121184" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585130121184">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586332180142" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1586332180142">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585130121184" />
-    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1585115087550">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586332180142" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1585847508369">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1585115087550" />
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1585847508369" />
     <state x="129" y="55" key="MergeDialog" timestamp="1584726313991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -264,21 +303,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="395" y="81" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1584726313998" />
-    <state x="186" y="9" key="SettingsEditor" timestamp="1585114782394">
+    <state x="415" y="121" key="PHPComposerAddDependencyDialogDimensionKey" timestamp="1586332007662">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585114782394" />
+    <state x="415" y="121" key="PHPComposerAddDependencyDialogDimensionKey/0.0.1366.728@0.0.1366.728" timestamp="1586332007662" />
+    <state x="334" y="17" key="SettingsEditor" timestamp="1586330184225">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="334" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586330184225" />
     <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1584726449007">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584726449007" />
-    <state x="494" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584720845698">
+    <state x="555" y="208" key="cloudConfig.SelfSettingsDialog" timestamp="1585847986056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="494" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1584720845698" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1585096556764">
+    <state x="555" y="208" key="cloudConfig.SelfSettingsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585847986056" />
+    <state x="494" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585847948293">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585096556764" />
+    <state x="494" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1585847948293" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1586332165608">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586332165608" />
   </component>
 </project>

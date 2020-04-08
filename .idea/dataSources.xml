@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="se" uuid="50a552fe-8511-4d73-9761-0548602f11a4">
+    <data-source source="LOCAL" name="laravelvueone@localhost" uuid="3510f289-7348-4027-a56c-b477db193036">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/laravelvueone</jdbc-url>
       <driver-properties>
-        <property name="serverTimezone" value="SYSTEM" />
+        <property name="serverTimezone" value="UTC" />
       </driver-properties>
     </data-source>
   </component>
