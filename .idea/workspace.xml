@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb555170-3790-40be-b5b5-0344b9ef68c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Answer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_04_04_163815_create_answers_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_04_08_073158_rename_answers_in_question_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="bb555170-3790-40be-b5b5-0344b9ef68c7" name="Default Changelist" comment="Generate fake Answer Model with faker">
+      <change afterPath="$PROJECT_DIR$/.idea/code-comments.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3510f289-7348-4027-a56c-b477db193036.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/AnswerFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/laravelvueone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravelvueone.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Question.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/QuestionFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/QuestionFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/question/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/question/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Answer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Answer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +30,19 @@
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="Amit chakraborty &lt;45399539+techamit95ch@users.noreply.github.com&gt;" />
+        <option value="techamit95ch &lt;amit98ch@gmail.com&gt;" />
       </list>
     </option>
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/techamit95ch/laravelvueone.git" />
+      </set>
+    </option>
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
@@ -172,19 +176,34 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="php artisan serve" />
       <command value="php artisan migrate" />
+      <command value="php artisan serve" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.phpunit.xml">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" />
+      <TestRunner configuration_file="$PROJECT_DIR$/artisan" scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.watch" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -203,7 +222,14 @@
       <workItem from="1586014616968" duration="239000" />
       <workItem from="1586014901502" duration="2620000" />
       <workItem from="1586022711544" duration="261000" />
-      <workItem from="1586329662831" duration="2666000" />
+      <workItem from="1586329662831" duration="3299000" />
+      <workItem from="1586741326580" duration="925000" />
+      <workItem from="1586938521662" duration="300000" />
+      <workItem from="1587192398837" duration="705000" />
+      <workItem from="1587193301808" duration="365000" />
+      <workItem from="1587193712455" duration="3511000" />
+      <workItem from="1587204545952" duration="2764000" />
+      <workItem from="1587207936462" duration="2947000" />
     </task>
     <task id="LOCAL-00001" summary="adding author info and question creation date in question item">
       <created>1584726222931</created>
@@ -212,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584726222931</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Design AnswersSchema &amp; rename answers to answers_count in Question model">
+      <created>1586332627982</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586332627982</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +258,9 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="adding author info and question creation date in question item" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding author info and question creation date in question item" />
+    <MESSAGE value="Design AnswersSchema &amp; rename answers to answers_count in Question model" />
+    <MESSAGE value="Generate fake Answer Model with faker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generate fake Answer Model with faker" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -243,22 +278,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="400" y="22" key="#Test_Frameworks/0.0.1366.728@0.0.1366.728" timestamp="1586331417291" />
-    <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586331459821">
+    <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586938745098">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586331459821" />
-    <state x="488" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1586330306943">
+    <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586938745098" />
+    <state x="488" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1587194654732">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1586330306943" />
+    <state x="488" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587194654732" />
     <state x="709" y="301" key="#com.jetbrains.php.framework.ui.FailedToParseDialog" timestamp="1586330182096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="709" y="301" key="#com.jetbrains.php.framework.ui.FailedToParseDialog/0.0.1366.728@0.0.1366.728" timestamp="1586330182096" />
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1584726220862">
+    <state x="162" y="0" width="1028" height="700" key="CommitChangelistDialog2" timestamp="1587216123774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584726220862" />
+    <state x="162" y="0" width="1028" height="700" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587216123774" />
     <state x="557" y="249" key="ComposerCompositePathDialog" timestamp="1586330177225">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -267,6 +302,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="459" y="276" key="ComposerInitDialogKey/0.0.1366.728@0.0.1366.728" timestamp="1586331860647" />
+    <state x="129" y="57" width="1092" height="610" key="DiffContextDialog" timestamp="1586333043519">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="57" width="1092" height="610" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1586333043519" />
     <state x="465" y="119" key="FileChooserDialogImpl" timestamp="1586331410589">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -275,22 +314,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="552" y="262" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1584721187408" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1586332180142">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1587215643623">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586332180142" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1586332180142">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587215643623" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1587215643623">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586332180142" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1586332180142">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587215643623" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1587215643623">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586332180142" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1586332180142">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587215643623" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1587215643623">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586332180142" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587215643623" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1585847508369">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -307,14 +346,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="415" y="121" key="PHPComposerAddDependencyDialogDimensionKey/0.0.1366.728@0.0.1366.728" timestamp="1586332007662" />
-    <state x="334" y="17" key="SettingsEditor" timestamp="1586330184225">
+    <state x="287" y="17" key="SettingsEditor" timestamp="1587207638963">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="334" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586330184225" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1584726449007">
+    <state x="287" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587207638963" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1586332666669">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584726449007" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586332666669" />
     <state x="555" y="208" key="cloudConfig.SelfSettingsDialog" timestamp="1585847986056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -323,9 +362,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="494" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1585847948293" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1586332165608">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1587208012758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586332165608" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1587208012758" />
   </component>
 </project>
